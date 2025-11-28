@@ -1,5 +1,5 @@
 {
-  "name": "@naturalforms/pino-cloudwatch-transport",
+  "name": "@homer-hq/pino-cloudwatch-transport",
   "version": "1.1.9",
   "description": "Pino v7+ AWS CloudWatch Logs transport",
   "type": "module",
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DinosaurDad/pino-cloudwatch-transport.git"
+    "url": "git+https://github.com/homer-hq/pino-cloudwatch-transport.git"
   },
   "keywords": [
     "pino",
@@ -30,12 +30,15 @@
     "cloudwatch",
     "aws"
   ],
-  "author": "Andrés Mármol - @serdnam",
+  "author": "Homer HQ - @homer-hq",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/serdnam/pino-cloudwatch-transport/issues"
   },
   "homepage": "https://github.com/serdnam/pino-cloudwatch-transport#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-json": "^6.1.0",
